@@ -1,0 +1,13 @@
+<component name="libraryTable">
+  <library name="Maven: io.vertx:vertx-bridge-common:3.9.8">
+    <CLASSES>
+      <root url="jar:///path/apache-maven-3.6.3/mvnrespository/io/vertx/vertx-bridge-common/3.9.8/vertx-bridge-common-3.9.8.jar!/" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="jar:///path/apache-maven-3.6.3/mvnrespository/io/vertx/vertx-bridge-common/3.9.8/vertx-bridge-common-3.9.8-javadoc.jar!/" />
+    </JAVADOC>
+    <SOURCES>
+      <root url="jar:///path/apache-maven-3.6.3/mvnrespository/io/vertx/vertx-bridge-common/3.9.8/vertx-bridge-common-3.9.8-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

@@ -1,0 +1,13 @@
+<component name="libraryTable">
+  <library name="Maven: org.locationtech.jts:jts-core:1.16.1">
+    <CLASSES>
+      <root url="jar:///path/apache-maven-3.6.3/mvnrespository/org/locationtech/jts/jts-core/1.16.1/jts-core-1.16.1.jar!/" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="jar:///path/apache-maven-3.6.3/mvnrespository/org/locationtech/jts/jts-core/1.16.1/jts-core-1.16.1-javadoc.jar!/" />
+    </JAVADOC>
+    <SOURCES>
+      <root url="jar:///path/apache-maven-3.6.3/mvnrespository/org/locationtech/jts/jts-core/1.16.1/jts-core-1.16.1-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

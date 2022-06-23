@@ -1,0 +1,13 @@
+<component name="libraryTable">
+  <library name="Maven: io.codearte.jfairy:jfairy:0.5.9">
+    <CLASSES>
+      <root url="jar:///path/apache-maven-3.6.3/mvnrespository/io/codearte/jfairy/jfairy/0.5.9/jfairy-0.5.9.jar!/" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="jar:///path/apache-maven-3.6.3/mvnrespository/io/codearte/jfairy/jfairy/0.5.9/jfairy-0.5.9-javadoc.jar!/" />
+    </JAVADOC>
+    <SOURCES>
+      <root url="jar:///path/apache-maven-3.6.3/mvnrespository/io/codearte/jfairy/jfairy/0.5.9/jfairy-0.5.9-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

@@ -1,0 +1,13 @@
+<component name="libraryTable">
+  <library name="Maven: org.apache.kafka:kafka_2.12:5.3.0-ccs">
+    <CLASSES>
+      <root url="jar:///path/apache-maven-3.6.3/mvnrespository/org/apache/kafka/kafka_2.12/5.3.0-ccs/kafka_2.12-5.3.0-ccs.jar!/" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="jar:///path/apache-maven-3.6.3/mvnrespository/org/apache/kafka/kafka_2.12/5.3.0-ccs/kafka_2.12-5.3.0-ccs-javadoc.jar!/" />
+    </JAVADOC>
+    <SOURCES>
+      <root url="jar:///path/apache-maven-3.6.3/mvnrespository/org/apache/kafka/kafka_2.12/5.3.0-ccs/kafka_2.12-5.3.0-ccs-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

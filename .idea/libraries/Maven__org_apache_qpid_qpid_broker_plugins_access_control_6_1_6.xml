@@ -1,0 +1,13 @@
+<component name="libraryTable">
+  <library name="Maven: org.apache.qpid:qpid-broker-plugins-access-control:6.1.6">
+    <CLASSES>
+      <root url="jar:///path/apache-maven-3.6.3/mvnrespository/org/apache/qpid/qpid-broker-plugins-access-control/6.1.6/qpid-broker-plugins-access-control-6.1.6.jar!/" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="jar:///path/apache-maven-3.6.3/mvnrespository/org/apache/qpid/qpid-broker-plugins-access-control/6.1.6/qpid-broker-plugins-access-control-6.1.6-javadoc.jar!/" />
+    </JAVADOC>
+    <SOURCES>
+      <root url="jar:///path/apache-maven-3.6.3/mvnrespository/org/apache/qpid/qpid-broker-plugins-access-control/6.1.6/qpid-broker-plugins-access-control-6.1.6-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

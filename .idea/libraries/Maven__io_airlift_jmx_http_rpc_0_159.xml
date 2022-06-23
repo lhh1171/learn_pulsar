@@ -1,0 +1,13 @@
+<component name="libraryTable">
+  <library name="Maven: io.airlift:jmx-http-rpc:0.159">
+    <CLASSES>
+      <root url="jar:///path/apache-maven-3.6.3/mvnrespository/io/airlift/jmx-http-rpc/0.159/jmx-http-rpc-0.159.jar!/" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="jar:///path/apache-maven-3.6.3/mvnrespository/io/airlift/jmx-http-rpc/0.159/jmx-http-rpc-0.159-javadoc.jar!/" />
+    </JAVADOC>
+    <SOURCES>
+      <root url="jar:///path/apache-maven-3.6.3/mvnrespository/io/airlift/jmx-http-rpc/0.159/jmx-http-rpc-0.159-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

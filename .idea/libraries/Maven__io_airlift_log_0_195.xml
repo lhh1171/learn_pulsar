@@ -1,0 +1,13 @@
+<component name="libraryTable">
+  <library name="Maven: io.airlift:log:0.195">
+    <CLASSES>
+      <root url="jar:///path/apache-maven-3.6.3/mvnrespository/io/airlift/log/0.195/log-0.195.jar!/" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="jar:///path/apache-maven-3.6.3/mvnrespository/io/airlift/log/0.195/log-0.195-javadoc.jar!/" />
+    </JAVADOC>
+    <SOURCES>
+      <root url="jar:///path/apache-maven-3.6.3/mvnrespository/io/airlift/log/0.195/log-0.195-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

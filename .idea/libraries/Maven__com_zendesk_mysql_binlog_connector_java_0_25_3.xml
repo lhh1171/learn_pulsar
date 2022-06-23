@@ -1,0 +1,13 @@
+<component name="libraryTable">
+  <library name="Maven: com.zendesk:mysql-binlog-connector-java:0.25.3">
+    <CLASSES>
+      <root url="jar:///path/apache-maven-3.6.3/mvnrespository/com/zendesk/mysql-binlog-connector-java/0.25.3/mysql-binlog-connector-java-0.25.3.jar!/" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="jar:///path/apache-maven-3.6.3/mvnrespository/com/zendesk/mysql-binlog-connector-java/0.25.3/mysql-binlog-connector-java-0.25.3-javadoc.jar!/" />
+    </JAVADOC>
+    <SOURCES>
+      <root url="jar:///path/apache-maven-3.6.3/mvnrespository/com/zendesk/mysql-binlog-connector-java/0.25.3/mysql-binlog-connector-java-0.25.3-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

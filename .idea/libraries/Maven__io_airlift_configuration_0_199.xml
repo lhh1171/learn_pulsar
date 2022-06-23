@@ -1,0 +1,13 @@
+<component name="libraryTable">
+  <library name="Maven: io.airlift:configuration:0.199">
+    <CLASSES>
+      <root url="jar:///path/apache-maven-3.6.3/mvnrespository/io/airlift/configuration/0.199/configuration-0.199.jar!/" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="jar:///path/apache-maven-3.6.3/mvnrespository/io/airlift/configuration/0.199/configuration-0.199-javadoc.jar!/" />
+    </JAVADOC>
+    <SOURCES>
+      <root url="jar:///path/apache-maven-3.6.3/mvnrespository/io/airlift/configuration/0.199/configuration-0.199-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

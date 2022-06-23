@@ -1,0 +1,13 @@
+<component name="libraryTable">
+  <library name="Maven: org.apache.zookeeper:zookeeper:tests:3.6.3">
+    <CLASSES>
+      <root url="jar:///path/apache-maven-3.6.3/mvnrespository/org/apache/zookeeper/zookeeper/3.6.3/zookeeper-3.6.3-tests.jar!/" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="jar:///path/apache-maven-3.6.3/mvnrespository/org/apache/zookeeper/zookeeper/3.6.3/zookeeper-3.6.3-test-javadoc.jar!/" />
+    </JAVADOC>
+    <SOURCES>
+      <root url="jar:///path/apache-maven-3.6.3/mvnrespository/org/apache/zookeeper/zookeeper/3.6.3/zookeeper-3.6.3-test-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

@@ -1,0 +1,13 @@
+<component name="libraryTable">
+  <library name="Maven: io.prestosql:presto-main:test-jar:tests:332">
+    <CLASSES>
+      <root url="jar:///path/apache-maven-3.6.3/mvnrespository/io/prestosql/presto-main/332/presto-main-332-tests.jar!/" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="jar:///path/apache-maven-3.6.3/mvnrespository/io/prestosql/presto-main/332/presto-main-332-test-javadoc.jar!/" />
+    </JAVADOC>
+    <SOURCES>
+      <root url="jar:///path/apache-maven-3.6.3/mvnrespository/io/prestosql/presto-main/332/presto-main-332-test-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>
