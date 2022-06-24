@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>org.apache.pulsar.client.impl.ProducerImpl</OriginalElement>
+  <nodes>
+    <node x="73.6" y="240.0">org.apache.pulsar.client.impl.ProducerBase</node>
+    <node x="225.59999999999997" y="327.5">org.apache.pulsar.client.impl.ProducerImpl</node>
+    <node x="377.59999999999997" y="240.0">org.apache.pulsar.client.impl.ConnectionHandler.Connection</node>
+    <node x="159.6" y="80.0">java.io.Closeable</node>
+    <node x="164.0" y="160.0">org.apache.pulsar.client.api.Producer</node>
+    <node x="0.0" y="160.0">org.apache.pulsar.client.impl.HandlerState</node>
+    <node x="299.6" y="80.0">org.apache.pulsar.common.classification.InterfaceStability.Stable</node>
+    <node x="237.6" y="240.0">io.netty.util.TimerTask</node>
+    <node x="43.599999999999966" y="80.0">org.apache.pulsar.common.classification.InterfaceAudience.Public</node>
+    <node x="143.6" y="0.0">java.lang.AutoCloseable</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="org.apache.pulsar.client.api.Producer" target="org.apache.pulsar.common.classification.InterfaceStability.Stable">
+      <point x="37.333333333333314" y="-15.0" />
+      <point x="257.3333333333333" y="135.0" />
+      <point x="347.6" y="135.0" />
+      <point x="0.0" y="15.0" />
+    </edge>
+    <edge source="org.apache.pulsar.client.impl.ProducerImpl" target="org.apache.pulsar.client.impl.ProducerBase">
+      <point x="-47.99999999999997" y="-15.0" />
+      <point x="249.6" y="295.0" />
+      <point x="145.6" y="295.0" />
+      <point x="0.0" y="15.0" />
+    </edge>
+    <edge source="org.apache.pulsar.client.api.Producer" target="java.io.Closeable">
+      <point x="0.0" y="-15.0" />
+      <point x="0.0" y="15.0" />
+    </edge>
+    <edge source="org.apache.pulsar.client.impl.ProducerBase" target="org.apache.pulsar.client.impl.HandlerState">
+      <point x="-36.0" y="-15.0" />
+      <point x="109.6" y="215.0" />
+      <point x="72.0" y="215.0" />
+      <point x="0.0" y="15.0" />
+    </edge>
+    <edge source="org.apache.pulsar.client.impl.ProducerImpl" target="org.apache.pulsar.client.impl.ConnectionHandler.Connection">
+      <point x="48.00000000000003" y="-15.0" />
+      <point x="345.6" y="295.0" />
+      <point x="441.59999999999997" y="295.0" />
+      <point x="0.0" y="15.0" />
+    </edge>
+    <edge source="org.apache.pulsar.client.impl.ProducerImpl" target="io.netty.util.TimerTask">
+      <point x="2.8421709430404007E-14" y="-15.0" />
+      <point x="0.0" y="15.0" />
+    </edge>
+    <edge source="java.io.Closeable" target="java.lang.AutoCloseable">
+      <point x="0.0" y="-15.0" />
+      <point x="0.0" y="15.0" />
+    </edge>
+    <edge source="org.apache.pulsar.client.api.Producer" target="org.apache.pulsar.common.classification.InterfaceAudience.Public">
+      <point x="-37.33333333333334" y="-15.0" />
+      <point x="182.66666666666666" y="135.0" />
+      <point x="91.59999999999997" y="135.0" />
+      <point x="0.0" y="15.0" />
+    </edge>
+    <edge source="org.apache.pulsar.client.impl.ProducerBase" target="org.apache.pulsar.client.api.Producer">
+      <point x="36.0" y="-15.0" />
+      <point x="181.6" y="215.0" />
+      <point x="220.0" y="215.0" />
+      <point x="0.0" y="15.0" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="1.2000000000000002" x="300.16666666666674" y="179.66666666666663" />
+  <SelectedNodes />
+  <Categories />
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+
