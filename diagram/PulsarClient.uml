@@ -4,9 +4,7 @@
   <OriginalElement>org.apache.pulsar.client.api.PulsarClient</OriginalElement>
   <nodes>
     <node x="16.0" y="80.0">java.io.Closeable</node>
-    <node x="197.0" y="0.0">org.apache.pulsar.common.classification.InterfaceStability.Stable</node>
     <node x="4.0" y="160.0">org.apache.pulsar.client.api.PulsarClient</node>
-    <node x="0.0" y="235.0">org.apache.pulsar.common.classification.InterfaceAudience.Public</node>
     <node x="0.0" y="0.0">java.lang.AutoCloseable</node>
   </nodes>
   <notes />
@@ -20,7 +18,7 @@
       <point x="0.0" y="15.0" />
     </edge>
   </edges>
-  <settings layout="Hierarchic Group" zoom="1.0" x="146.5" y="132.5" />
+  <settings layout="Hierarchic Group" zoom="0.9" x="146.5" y="132.49999999999994" />
   <SelectedNodes>
     <node>org.apache.pulsar.client.api.PulsarClient</node>
   </SelectedNodes>

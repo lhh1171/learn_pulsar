@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>org.apache.pulsar.client.impl.ConsumerImpl</OriginalElement>
+  <nodes>
+    <node x="188.0" y="400.0">org.apache.pulsar.client.impl.ZeroQueueConsumerImpl</node>
+    <node x="118.0" y="320.0">org.apache.pulsar.client.impl.ConsumerImpl</node>
+    <node x="90.0" y="240.0">org.apache.pulsar.client.impl.ConnectionHandler.Connection</node>
+    <node x="387.8461538461539" y="160.0">org.apache.pulsar.client.impl.HandlerState</node>
+    <node x="558.0" y="80.0">org.apache.pulsar.common.classification.InterfaceAudience.Public</node>
+    <node x="658.0" y="0.0">java.lang.AutoCloseable</node>
+    <node x="460.0" y="240.0">org.apache.pulsar.client.impl.ConsumerBase</node>
+    <node x="551.8461538461539" y="160.0">org.apache.pulsar.client.api.Consumer</node>
+    <node x="674.0" y="80.0">java.io.Closeable</node>
+    <node x="424.0" y="400.0">org.apache.pulsar.client.impl.PatternMultiTopicsConsumerImpl</node>
+    <node x="442.0" y="80.0">org.apache.pulsar.common.classification.InterfaceStability.Stable</node>
+    <node x="0.0" y="400.0">org.apache.pulsar.client.impl.RawReaderImpl.RawConsumerImpl</node>
+    <node x="452.0" y="320.0">org.apache.pulsar.client.impl.MultiTopicsConsumerImpl</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="org.apache.pulsar.client.api.Consumer" target="org.apache.pulsar.common.classification.InterfaceAudience.Public">
+      <point x="0.0" y="-15.0" />
+      <point x="607.8461538461539" y="135.0" />
+      <point x="606.0" y="135.0" />
+      <point x="0.0" y="15.0" />
+    </edge>
+    <edge source="org.apache.pulsar.client.api.Consumer" target="org.apache.pulsar.common.classification.InterfaceStability.Stable">
+      <point x="-37.33333333333337" y="-15.0" />
+      <point x="570.5128205128206" y="135.0" />
+      <point x="490.0" y="135.0" />
+      <point x="0.0" y="15.0" />
+    </edge>
+    <edge source="org.apache.pulsar.client.impl.RawReaderImpl.RawConsumerImpl" target="org.apache.pulsar.client.impl.ConsumerImpl">
+      <point x="0.0" y="-15.0" />
+      <point x="84.0" y="375.0" />
+      <point x="154.0" y="375.0" />
+      <point x="-36.0" y="15.0" />
+    </edge>
+    <edge source="org.apache.pulsar.client.impl.ZeroQueueConsumerImpl" target="org.apache.pulsar.client.impl.ConsumerImpl">
+      <point x="0.0" y="-15.0" />
+      <point x="296.0" y="375.0" />
+      <point x="226.0" y="375.0" />
+      <point x="36.0" y="15.0" />
+    </edge>
+    <edge source="org.apache.pulsar.client.impl.MultiTopicsConsumerImpl" target="org.apache.pulsar.client.impl.ConsumerBase">
+      <point x="0.0" y="-15.0" />
+      <point x="36.0" y="15.0" />
+    </edge>
+    <edge source="org.apache.pulsar.client.api.Consumer" target="java.io.Closeable">
+      <point x="37.333333333333314" y="-15.0" />
+      <point x="645.1794871794872" y="135.0" />
+      <point x="734.0" y="135.0" />
+      <point x="0.0" y="15.0" />
+    </edge>
+    <edge source="org.apache.pulsar.client.impl.ConsumerBase" target="org.apache.pulsar.client.api.Consumer">
+      <point x="36.0" y="-15.0" />
+      <point x="568.0" y="215.0" />
+      <point x="607.8461538461539" y="215.0" />
+      <point x="0.0" y="15.0" />
+    </edge>
+    <edge source="java.io.Closeable" target="java.lang.AutoCloseable">
+      <point x="0.0" y="-15.0" />
+      <point x="0.0" y="15.0" />
+    </edge>
+    <edge source="org.apache.pulsar.client.impl.PatternMultiTopicsConsumerImpl" target="org.apache.pulsar.client.impl.MultiTopicsConsumerImpl">
+      <point x="0.0" y="-15.0" />
+      <point x="0.0" y="15.0" />
+    </edge>
+    <edge source="org.apache.pulsar.client.impl.ConsumerImpl" target="org.apache.pulsar.client.impl.ConnectionHandler.Connection">
+      <point x="-36.0" y="-15.0" />
+      <point x="0.0" y="15.0" />
+    </edge>
+    <edge source="org.apache.pulsar.client.impl.ConsumerBase" target="org.apache.pulsar.client.impl.HandlerState">
+      <point x="-36.0" y="-15.0" />
+      <point x="496.0" y="215.0" />
+      <point x="459.8461538461539" y="215.0" />
+      <point x="0.0" y="15.0" />
+    </edge>
+    <edge source="org.apache.pulsar.client.impl.ConsumerImpl" target="org.apache.pulsar.client.impl.ConsumerBase">
+      <point x="36.0" y="-15.0" />
+      <point x="226.0" y="295.0" />
+      <point x="496.0" y="295.0" />
+      <point x="-36.0" y="15.0" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="1.3000000000000003" x="306.57692307692304" y="314.4615384615384" />
+  <SelectedNodes />
+  <Categories />
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+
