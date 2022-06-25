@@ -1,0 +1,162 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>org.apache.pulsar.client.api.Authentication</OriginalElement>
+  <nodes>
+    <node x="0.0" y="300.0">org.apache.pulsar.client.impl.PatternTopicsConsumerImplAuthTest.ClientAuthentication</node>
+    <node x="1824.0" y="300.0">org.apache.pulsar.client.impl.auth.AuthenticationAthenz</node>
+    <node x="880.0" y="300.0">org.apache.pulsar.client.impl.auth.AuthenticationDisabled</node>
+    <node x="3548.0" y="300.0">org.apache.pulsar.client.impl.auth.AuthenticationBasic</node>
+    <node x="1556.0" y="300.0">org.apache.pulsar.client.impl.auth.AuthenticationKeyStoreTls</node>
+    <node x="1790.0" y="0.0">java.lang.AutoCloseable</node>
+    <node x="2888.0" y="300.0">org.apache.pulsar.client.impl.auth.oauth2.AuthenticationOAuth2</node>
+    <node x="2492.0" y="300.0">org.apache.pulsar.client.impl.auth.MockEncodedAuthenticationParameterSupport</node>
+    <node x="1946.0" y="80.0">java.io.Serializable</node>
+    <node x="2052.0" y="300.0">org.apache.pulsar.client.impl.auth.AuthenticationSasl</node>
+    <node x="3344.0" y="300.0">org.apache.pulsar.client.impl.auth.AuthenticationTls</node>
+    <node x="668.0" y="300.0">org.apache.pulsar.client.impl.auth.MockAuthentication</node>
+    <node x="2264.0" y="300.0">org.apache.pulsar.client.api.AuthorizationProducerConsumerTest.ClientAuthentication</node>
+    <node x="1510.0" y="80.0">org.apache.pulsar.common.classification.InterfaceAudience.LimitedPrivate</node>
+    <node x="1124.0" y="300.0">org.apache.pulsar.client.impl.auth.AuthenticationToken</node>
+    <node x="1344.0" y="300.0">org.apache.pulsar.broker.auth.MockAuthentication</node>
+    <node x="1806.0" y="80.0">java.io.Closeable</node>
+    <node x="1724.0" y="160.0">org.apache.pulsar.client.api.Authentication</node>
+    <node x="448.0" y="300.0">org.apache.pulsar.proxy.server.ProxyRolesEnforcementTest.BasicAuthentication</node>
+    <node x="3116.0" y="300.0">org.apache.pulsar.client.api.MutualAuthenticationTest.MutualAuthentication</node>
+    <node x="1690.0" y="80.0">org.apache.pulsar.common.classification.InterfaceStability.Stable</node>
+    <node x="228.0" y="300.0">org.apache.pulsar.proxy.server.ProxyAuthenticationTest.BasicAuthentication</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="org.apache.pulsar.client.impl.auth.AuthenticationKeyStoreTls" target="org.apache.pulsar.client.api.Authentication">
+      <point x="0.0" y="-15.0" />
+      <point x="1680.0" y="280.0" />
+      <point x="1799.0" y="280.0" />
+      <point x="-5.0" y="15.0" />
+    </edge>
+    <edge source="org.apache.pulsar.client.impl.auth.AuthenticationTls" target="org.apache.pulsar.client.api.Authentication">
+      <point x="0.0" y="-15.0" />
+      <point x="3436.0" y="220.0" />
+      <point x="1869.0" y="220.0" />
+      <point x="65.0" y="15.0" />
+    </edge>
+    <edge source="org.apache.pulsar.client.impl.auth.AuthenticationAthenz" target="org.apache.pulsar.client.api.Authentication">
+      <point x="0.0" y="-15.0" />
+      <point x="1928.0" y="280.0" />
+      <point x="1809.0" y="280.0" />
+      <point x="5.0" y="15.0" />
+    </edge>
+    <edge source="org.apache.pulsar.proxy.server.ProxyRolesEnforcementTest.BasicAuthentication" target="org.apache.pulsar.client.api.Authentication">
+      <point x="0.0" y="-15.0" />
+      <point x="548.0" y="230.0" />
+      <point x="1749.0" y="230.0" />
+      <point x="-55.0" y="15.0" />
+    </edge>
+    <edge source="org.apache.pulsar.client.api.Authentication" target="java.io.Serializable">
+      <point x="60.0" y="-15.0" />
+      <point x="1864.0" y="140.0" />
+      <point x="2018.0" y="140.0" />
+      <point x="0.0" y="15.0" />
+    </edge>
+    <edge source="org.apache.pulsar.client.impl.auth.AuthenticationToken" target="org.apache.pulsar.client.api.Authentication">
+      <point x="0.0" y="-15.0" />
+      <point x="1224.0" y="260.0" />
+      <point x="1779.0" y="260.0" />
+      <point x="-25.0" y="15.0" />
+    </edge>
+    <edge source="org.apache.pulsar.client.api.Authentication" target="org.apache.pulsar.common.classification.InterfaceStability.Stable">
+      <point x="-20.0" y="-15.0" />
+      <point x="1784.0" y="130.0" />
+      <point x="1738.0" y="130.0" />
+      <point x="0.0" y="15.0" />
+    </edge>
+    <edge source="org.apache.pulsar.client.impl.auth.MockEncodedAuthenticationParameterSupport" target="org.apache.pulsar.client.api.Authentication">
+      <point x="0.0" y="-15.0" />
+      <point x="2680.0" y="250.0" />
+      <point x="1839.0" y="250.0" />
+      <point x="35.0" y="15.0" />
+    </edge>
+    <edge source="org.apache.pulsar.client.api.MutualAuthenticationTest.MutualAuthentication" target="org.apache.pulsar.client.api.Authentication">
+      <point x="0.0" y="-15.0" />
+      <point x="3220.0" y="230.0" />
+      <point x="1859.0" y="230.0" />
+      <point x="55.0" y="15.0" />
+    </edge>
+    <edge source="org.apache.pulsar.client.impl.auth.oauth2.AuthenticationOAuth2" target="org.apache.pulsar.client.api.Authentication">
+      <point x="0.0" y="-15.0" />
+      <point x="2992.0" y="240.0" />
+      <point x="1849.0" y="240.0" />
+      <point x="45.0" y="15.0" />
+    </edge>
+    <edge source="org.apache.pulsar.client.api.Authentication" target="java.io.Closeable">
+      <point x="20.0" y="-15.0" />
+      <point x="1824.0" y="130.0" />
+      <point x="1866.0" y="130.0" />
+      <point x="0.0" y="15.0" />
+    </edge>
+    <edge source="org.apache.pulsar.client.impl.PatternTopicsConsumerImplAuthTest.ClientAuthentication" target="org.apache.pulsar.client.api.Authentication">
+      <point x="0.0" y="-15.0" />
+      <point x="104.0" y="210.0" />
+      <point x="1729.0" y="210.0" />
+      <point x="-75.0" y="15.0" />
+    </edge>
+    <edge source="org.apache.pulsar.client.impl.auth.AuthenticationSasl" target="org.apache.pulsar.client.api.Authentication">
+      <point x="0.0" y="-15.0" />
+      <point x="2148.0" y="270.0" />
+      <point x="1819.0" y="270.0" />
+      <point x="15.0" y="15.0" />
+    </edge>
+    <edge source="org.apache.pulsar.client.impl.auth.AuthenticationDisabled" target="org.apache.pulsar.client.api.Authentication">
+      <point x="0.0" y="-15.0" />
+      <point x="992.0" y="250.0" />
+      <point x="1769.0" y="250.0" />
+      <point x="-35.0" y="15.0" />
+    </edge>
+    <edge source="org.apache.pulsar.client.impl.auth.MockAuthentication" target="org.apache.pulsar.client.api.Authentication">
+      <point x="0.0" y="-15.0" />
+      <point x="764.0" y="240.0" />
+      <point x="1759.0" y="240.0" />
+      <point x="-45.0" y="15.0" />
+    </edge>
+    <edge source="org.apache.pulsar.broker.auth.MockAuthentication" target="org.apache.pulsar.client.api.Authentication">
+      <point x="0.0" y="-15.0" />
+      <point x="1440.0" y="270.0" />
+      <point x="1789.0" y="270.0" />
+      <point x="-15.0" y="15.0" />
+    </edge>
+    <edge source="java.io.Closeable" target="java.lang.AutoCloseable">
+      <point x="0.0" y="-15.0" />
+      <point x="0.0" y="15.0" />
+    </edge>
+    <edge source="org.apache.pulsar.client.impl.auth.AuthenticationBasic" target="org.apache.pulsar.client.api.Authentication">
+      <point x="0.0" y="-15.0" />
+      <point x="3648.0" y="210.0" />
+      <point x="1879.0" y="210.0" />
+      <point x="75.0" y="15.0" />
+    </edge>
+    <edge source="org.apache.pulsar.proxy.server.ProxyAuthenticationTest.BasicAuthentication" target="org.apache.pulsar.client.api.Authentication">
+      <point x="0.0" y="-15.0" />
+      <point x="328.0" y="220.0" />
+      <point x="1739.0" y="220.0" />
+      <point x="-65.0" y="15.0" />
+    </edge>
+    <edge source="org.apache.pulsar.client.api.Authentication" target="org.apache.pulsar.common.classification.InterfaceAudience.LimitedPrivate">
+      <point x="-60.0" y="-15.0" />
+      <point x="1744.0" y="140.0" />
+      <point x="1590.0" y="140.0" />
+      <point x="0.0" y="15.0" />
+    </edge>
+    <edge source="org.apache.pulsar.client.api.AuthorizationProducerConsumerTest.ClientAuthentication" target="org.apache.pulsar.client.api.Authentication">
+      <point x="0.0" y="-15.0" />
+      <point x="2368.0" y="260.0" />
+      <point x="1829.0" y="260.0" />
+      <point x="25.0" y="15.0" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="1.0" x="290.0" y="95.0" />
+  <SelectedNodes />
+  <Categories />
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+

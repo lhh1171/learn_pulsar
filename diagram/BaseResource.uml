@@ -1,0 +1,162 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>org.apache.pulsar.client.admin.internal.BaseResource</OriginalElement>
+  <nodes>
+    <node x="2230.0" y="140.0">org.apache.pulsar.client.admin.internal.TenantsImpl</node>
+    <node x="0.0" y="220.0">org.apache.pulsar.client.admin.internal.SourcesImpl</node>
+    <node x="328.0" y="220.0">org.apache.pulsar.client.admin.internal.SinksImpl</node>
+    <node x="1770.0" y="0.0">org.apache.pulsar.client.admin.internal.BaseResource</node>
+    <node x="2942.0" y="140.0">org.apache.pulsar.client.admin.internal.BrokersImpl</node>
+    <node x="422.0" y="140.0">org.apache.pulsar.client.admin.internal.BookiesImpl</node>
+    <node x="1926.0" y="140.0">org.apache.pulsar.client.admin.internal.SchemasImpl</node>
+    <node x="1042.0" y="140.0">org.apache.pulsar.client.admin.internal.TransactionsImpl</node>
+    <node x="2762.0" y="140.0">org.apache.pulsar.client.admin.internal.NamespacesImpl</node>
+    <node x="830.0" y="140.0">org.apache.pulsar.client.admin.internal.ResourceGroupsImpl</node>
+    <node x="3098.0" y="140.0">org.apache.pulsar.client.admin.internal.ProxyStatsImpl</node>
+    <node x="1442.0" y="140.0">org.apache.pulsar.client.admin.internal.WorkerImpl</node>
+    <node x="1238.0" y="140.0">org.apache.pulsar.client.admin.internal.TopicPoliciesImpl</node>
+    <node x="2598.0" y="140.0">org.apache.pulsar.client.admin.internal.ClustersImpl</node>
+    <node x="1590.0" y="140.0">org.apache.pulsar.client.admin.internal.BrokerStatsImpl</node>
+    <node x="468.0" y="220.0">org.apache.pulsar.client.admin.internal.PackagesImpl</node>
+    <node x="578.0" y="140.0">org.apache.pulsar.client.admin.internal.NonPersistentTopicsImpl</node>
+    <node x="2082.0" y="140.0">org.apache.pulsar.client.admin.internal.LookupImpl</node>
+    <node x="218.0" y="140.0">org.apache.pulsar.client.admin.internal.ComponentResource</node>
+    <node x="2386.0" y="140.0">org.apache.pulsar.client.admin.internal.ResourceQuotasImpl</node>
+    <node x="156.0" y="220.0">org.apache.pulsar.client.admin.internal.FunctionsImpl</node>
+    <node x="1778.0" y="140.0">org.apache.pulsar.client.admin.internal.TopicsImpl</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="org.apache.pulsar.client.admin.internal.ProxyStatsImpl" target="org.apache.pulsar.client.admin.internal.BaseResource">
+      <point x="0.0" y="-15.0" />
+      <point x="3178.0" y="50.0" />
+      <point x="1909.764705882353" y="50.0" />
+      <point x="67.76470588235293" y="15.0" />
+    </edge>
+    <edge source="org.apache.pulsar.client.admin.internal.BookiesImpl" target="org.apache.pulsar.client.admin.internal.BaseResource">
+      <point x="0.0" y="-15.0" />
+      <point x="490.0" y="60.0" />
+      <point x="1782.7058823529412" y="60.0" />
+      <point x="-59.29411764705878" y="15.0" />
+    </edge>
+    <edge source="org.apache.pulsar.client.admin.internal.ResourceGroupsImpl" target="org.apache.pulsar.client.admin.internal.BaseResource">
+      <point x="0.0" y="-15.0" />
+      <point x="926.0" y="80.0" />
+      <point x="1799.6470588235295" y="80.0" />
+      <point x="-42.352941176470495" y="15.0" />
+    </edge>
+    <edge source="org.apache.pulsar.client.admin.internal.SourcesImpl" target="org.apache.pulsar.client.admin.internal.ComponentResource">
+      <point x="0.0" y="-15.0" />
+      <point x="68.0" y="190.0" />
+      <point x="241.0" y="190.0" />
+      <point x="-69.0" y="15.0" />
+    </edge>
+    <edge source="org.apache.pulsar.client.admin.internal.NamespacesImpl" target="org.apache.pulsar.client.admin.internal.BaseResource">
+      <point x="0.0" y="-15.0" />
+      <point x="2842.0" y="70.0" />
+      <point x="1892.8235294117646" y="70.0" />
+      <point x="50.82352941176464" y="15.0" />
+    </edge>
+    <edge source="org.apache.pulsar.client.admin.internal.TransactionsImpl" target="org.apache.pulsar.client.admin.internal.BaseResource">
+      <point x="0.0" y="-15.0" />
+      <point x="1130.0" y="90.0" />
+      <point x="1808.1176470588234" y="90.0" />
+      <point x="-33.88235294117658" y="15.0" />
+    </edge>
+    <edge source="org.apache.pulsar.client.admin.internal.SchemasImpl" target="org.apache.pulsar.client.admin.internal.BaseResource">
+      <point x="0.0" y="-15.0" />
+      <point x="1994.0" y="120.0" />
+      <point x="1850.4705882352941" y="120.0" />
+      <point x="8.470588235294144" y="15.0" />
+    </edge>
+    <edge source="org.apache.pulsar.client.admin.internal.SinksImpl" target="org.apache.pulsar.client.admin.internal.ComponentResource">
+      <point x="0.0" y="-15.0" />
+      <point x="388.0" y="200.0" />
+      <point x="333.0" y="200.0" />
+      <point x="23.0" y="15.0" />
+    </edge>
+    <edge source="org.apache.pulsar.client.admin.internal.NonPersistentTopicsImpl" target="org.apache.pulsar.client.admin.internal.BaseResource">
+      <point x="0.0" y="-15.0" />
+      <point x="694.0" y="70.0" />
+      <point x="1791.1764705882354" y="70.0" />
+      <point x="-50.82352941176464" y="15.0" />
+    </edge>
+    <edge source="org.apache.pulsar.client.admin.internal.TenantsImpl" target="org.apache.pulsar.client.admin.internal.BaseResource">
+      <point x="0.0" y="-15.0" />
+      <point x="2298.0" y="100.0" />
+      <point x="1867.4117647058824" y="100.0" />
+      <point x="25.411764705882433" y="15.0" />
+    </edge>
+    <edge source="org.apache.pulsar.client.admin.internal.LookupImpl" target="org.apache.pulsar.client.admin.internal.BaseResource">
+      <point x="0.0" y="-15.0" />
+      <point x="2146.0" y="110.0" />
+      <point x="1858.9411764705883" y="110.0" />
+      <point x="16.94117647058829" y="15.0" />
+    </edge>
+    <edge source="org.apache.pulsar.client.admin.internal.WorkerImpl" target="org.apache.pulsar.client.admin.internal.BaseResource">
+      <point x="0.0" y="-15.0" />
+      <point x="1506.0" y="110.0" />
+      <point x="1825.0588235294117" y="110.0" />
+      <point x="-16.94117647058829" y="15.0" />
+    </edge>
+    <edge source="org.apache.pulsar.client.admin.internal.TopicPoliciesImpl" target="org.apache.pulsar.client.admin.internal.BaseResource">
+      <point x="0.0" y="-15.0" />
+      <point x="1330.0" y="100.0" />
+      <point x="1816.5882352941176" y="100.0" />
+      <point x="-25.411764705882433" y="15.0" />
+    </edge>
+    <edge source="org.apache.pulsar.client.admin.internal.ComponentResource" target="org.apache.pulsar.client.admin.internal.BaseResource">
+      <point x="0.0" y="-15.0" />
+      <point x="310.0" y="50.0" />
+      <point x="1774.235294117647" y="50.0" />
+      <point x="-67.76470588235293" y="15.0" />
+    </edge>
+    <edge source="org.apache.pulsar.client.admin.internal.FunctionsImpl" target="org.apache.pulsar.client.admin.internal.ComponentResource">
+      <point x="0.0" y="-15.0" />
+      <point x="232.0" y="200.0" />
+      <point x="287.0" y="200.0" />
+      <point x="-23.0" y="15.0" />
+    </edge>
+    <edge source="org.apache.pulsar.client.admin.internal.PackagesImpl" target="org.apache.pulsar.client.admin.internal.ComponentResource">
+      <point x="0.0" y="-15.0" />
+      <point x="540.0" y="190.0" />
+      <point x="379.0" y="190.0" />
+      <point x="69.0" y="15.0" />
+    </edge>
+    <edge source="org.apache.pulsar.client.admin.internal.ResourceQuotasImpl" target="org.apache.pulsar.client.admin.internal.BaseResource">
+      <point x="0.0" y="-15.0" />
+      <point x="2482.0" y="90.0" />
+      <point x="1875.8823529411764" y="90.0" />
+      <point x="33.88235294117635" y="15.0" />
+    </edge>
+    <edge source="org.apache.pulsar.client.admin.internal.BrokerStatsImpl" target="org.apache.pulsar.client.admin.internal.BaseResource">
+      <point x="-2.2737367544323206E-13" y="-15.0" />
+      <point x="1673.9999999999998" y="120.0" />
+      <point x="1833.5294117647059" y="120.0" />
+      <point x="-8.470588235294144" y="15.0" />
+    </edge>
+    <edge source="org.apache.pulsar.client.admin.internal.TopicsImpl" target="org.apache.pulsar.client.admin.internal.BaseResource">
+      <point x="0.0" y="-15.0" />
+      <point x="0.0" y="15.0" />
+    </edge>
+    <edge source="org.apache.pulsar.client.admin.internal.ClustersImpl" target="org.apache.pulsar.client.admin.internal.BaseResource">
+      <point x="0.0" y="-15.0" />
+      <point x="2670.0" y="80.0" />
+      <point x="1884.3529411764705" y="80.0" />
+      <point x="42.352941176470495" y="15.0" />
+    </edge>
+    <edge source="org.apache.pulsar.client.admin.internal.BrokersImpl" target="org.apache.pulsar.client.admin.internal.BaseResource">
+      <point x="0.0" y="-15.0" />
+      <point x="3010.0" y="60.0" />
+      <point x="1901.2941176470588" y="60.0" />
+      <point x="59.29411764705878" y="15.0" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="1.0" x="527.0" y="15.0" />
+  <SelectedNodes />
+  <Categories />
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+

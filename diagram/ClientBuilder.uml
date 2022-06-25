@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>org.apache.pulsar.client.api.ClientBuilder</OriginalElement>
+  <nodes>
+    <node x="116.0" y="0.0">java.lang.Cloneable</node>
+    <node x="4.0" y="1409.0">org.apache.pulsar.client.impl.ClientBuilderImpl</node>
+    <node x="4.0" y="80.0">org.apache.pulsar.client.api.ClientBuilder</node>
+    <node x="420.0" y="0.0">org.apache.pulsar.common.classification.InterfaceStability.Stable</node>
+    <node x="0.0" y="0.0">org.apache.pulsar.common.classification.InterfaceAudience.Public</node>
+    <node x="256.0" y="0.0">java.io.Serializable</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="org.apache.pulsar.client.api.ClientBuilder" target="java.lang.Cloneable">
+      <point x="-62.0" y="-639.5" />
+      <point x="190.0" y="55.0" />
+      <point x="176.0" y="55.0" />
+      <point x="0.0" y="15.0" />
+    </edge>
+    <edge source="org.apache.pulsar.client.api.ClientBuilder" target="org.apache.pulsar.common.classification.InterfaceStability.Stable">
+      <point x="186.0" y="-639.5" />
+      <point x="438.0" y="55.0" />
+      <point x="468.0" y="55.0" />
+      <point x="0.0" y="15.0" />
+    </edge>
+    <edge source="org.apache.pulsar.client.api.ClientBuilder" target="org.apache.pulsar.common.classification.InterfaceAudience.Public">
+      <point x="-186.0" y="-639.5" />
+      <point x="66.0" y="55.0" />
+      <point x="48.0" y="55.0" />
+      <point x="0.0" y="15.0" />
+    </edge>
+    <edge source="org.apache.pulsar.client.impl.ClientBuilderImpl" target="org.apache.pulsar.client.api.ClientBuilder">
+      <point x="0.0" y="-654.0" />
+      <point x="0.0" y="639.5" />
+    </edge>
+    <edge source="org.apache.pulsar.client.api.ClientBuilder" target="java.io.Serializable">
+      <point x="62.0" y="-639.5" />
+      <point x="314.0" y="55.0" />
+      <point x="328.0" y="55.0" />
+      <point x="0.0" y="15.0" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="1.093021556448666" x="565.9284121643353" y="1654.399958564166" />
+  <SelectedNodes />
+  <Categories>
+    <Category>Methods</Category>
+  </Categories>
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+
