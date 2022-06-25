@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>org.apache.pulsar.client.impl.HandlerState</OriginalElement>
+  <nodes>
+    <node x="852.0" y="80.0">org.apache.pulsar.client.impl.ProducerBase</node>
+    <node x="272.0" y="80.0">org.apache.pulsar.client.impl.ConsumerBase</node>
+    <node x="188.0" y="240.0">org.apache.pulsar.client.impl.ZeroQueueConsumerImpl</node>
+    <node x="956.0" y="160.0">org.apache.pulsar.client.impl.ProducerImpl</node>
+    <node x="118.0" y="160.0">org.apache.pulsar.client.impl.ConsumerImpl</node>
+    <node x="704.0" y="160.0">org.apache.pulsar.client.impl.PartitionedProducerImpl</node>
+    <node x="424.0" y="240.0">org.apache.pulsar.client.impl.PatternMultiTopicsConsumerImpl</node>
+    <node x="502.0" y="0.0">org.apache.pulsar.client.impl.HandlerState</node>
+    <node x="442.0" y="80.0">org.apache.pulsar.client.impl.TransactionMetaStoreHandler</node>
+    <node x="452.0" y="160.0">org.apache.pulsar.client.impl.MultiTopicsConsumerImpl</node>
+    <node x="0.0" y="240.0">org.apache.pulsar.client.impl.RawReaderImpl.RawConsumerImpl</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="org.apache.pulsar.client.impl.ProducerImpl" target="org.apache.pulsar.client.impl.ProducerBase">
+      <point x="0.0" y="-15.0" />
+      <point x="1028.0" y="135.0" />
+      <point x="960.0" y="135.0" />
+      <point x="36.0" y="15.0" />
+    </edge>
+    <edge source="org.apache.pulsar.client.impl.ProducerBase" target="org.apache.pulsar.client.impl.HandlerState">
+      <point x="0.0" y="-15.0" />
+      <point x="924.0" y="55.0" />
+      <point x="622.0" y="55.0" />
+      <point x="48.0" y="15.0" />
+    </edge>
+    <edge source="org.apache.pulsar.client.impl.RawReaderImpl.RawConsumerImpl" target="org.apache.pulsar.client.impl.ConsumerImpl">
+      <point x="0.0" y="-15.0" />
+      <point x="84.0" y="215.0" />
+      <point x="154.0" y="215.0" />
+      <point x="-36.0" y="15.0" />
+    </edge>
+    <edge source="org.apache.pulsar.client.impl.ZeroQueueConsumerImpl" target="org.apache.pulsar.client.impl.ConsumerImpl">
+      <point x="0.0" y="-15.0" />
+      <point x="296.0" y="215.0" />
+      <point x="226.0" y="215.0" />
+      <point x="36.0" y="15.0" />
+    </edge>
+    <edge source="org.apache.pulsar.client.impl.MultiTopicsConsumerImpl" target="org.apache.pulsar.client.impl.ConsumerBase">
+      <point x="0.0" y="-15.0" />
+      <point x="568.0" y="135.0" />
+      <point x="380.0" y="135.0" />
+      <point x="36.0" y="15.0" />
+    </edge>
+    <edge source="org.apache.pulsar.client.impl.TransactionMetaStoreHandler" target="org.apache.pulsar.client.impl.HandlerState">
+      <point x="0.0" y="-15.0" />
+      <point x="0.0" y="15.0" />
+    </edge>
+    <edge source="org.apache.pulsar.client.impl.PatternMultiTopicsConsumerImpl" target="org.apache.pulsar.client.impl.MultiTopicsConsumerImpl">
+      <point x="0.0" y="-15.0" />
+      <point x="0.0" y="15.0" />
+    </edge>
+    <edge source="org.apache.pulsar.client.impl.PartitionedProducerImpl" target="org.apache.pulsar.client.impl.ProducerBase">
+      <point x="0.0" y="-15.0" />
+      <point x="820.0" y="135.0" />
+      <point x="888.0" y="135.0" />
+      <point x="-36.0" y="15.0" />
+    </edge>
+    <edge source="org.apache.pulsar.client.impl.ConsumerBase" target="org.apache.pulsar.client.impl.HandlerState">
+      <point x="0.0" y="-15.0" />
+      <point x="344.0" y="55.0" />
+      <point x="526.0" y="55.0" />
+      <point x="-48.0" y="15.0" />
+    </edge>
+    <edge source="org.apache.pulsar.client.impl.ConsumerImpl" target="org.apache.pulsar.client.impl.ConsumerBase">
+      <point x="0.0" y="-15.0" />
+      <point x="190.0" y="135.0" />
+      <point x="308.0" y="135.0" />
+      <point x="-36.0" y="15.0" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="1.0" x="532.0" y="29.0" />
+  <SelectedNodes>
+    <node>org.apache.pulsar.client.impl.HandlerState</node>
+  </SelectedNodes>
+  <Categories />
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+

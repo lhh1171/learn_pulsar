@@ -32,8 +32,10 @@
       <point x="0.0" y="15.0" />
     </edge>
   </edges>
-  <settings layout="Hierarchic Group" zoom="1.0" x="176.0" y="55.0" />
-  <SelectedNodes />
+  <settings layout="Hierarchic Group" zoom="1.0" x="176.0" y="95.0" />
+  <SelectedNodes>
+    <node>org.apache.pulsar.client.api.ProducerBuilder</node>
+  </SelectedNodes>
   <Categories />
   <SCOPE>All</SCOPE>
   <VISIBILITY>private</VISIBILITY>
