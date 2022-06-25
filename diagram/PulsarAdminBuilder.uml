@@ -13,7 +13,7 @@
       <point x="0.0" y="320.5" />
     </edge>
   </edges>
-  <settings layout="Hierarchic Group" zoom="1.0" x="96.0" y="591.0" />
+  <settings layout="Hierarchic Group" zoom="1.3931952662721896" x="430.8946154573358" y="363.36674892242485" />
   <SelectedNodes>
     <node>org.apache.pulsar.client.admin.internal.PulsarAdminBuilderImpl</node>
   </SelectedNodes>
