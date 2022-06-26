@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>org.apache.pulsar.client.api.ConsumerStats</OriginalElement>
+  <nodes>
+    <node x="168.85714285714283" y="80.0">org.apache.pulsar.client.api.ConsumerStats</node>
+    <node x="0.0" y="240.0">org.apache.pulsar.client.impl.ConsumerStatsRecorderImpl</node>
+    <node x="268.0" y="240.0">org.apache.pulsar.client.impl.ConsumerStatsDisabled</node>
+    <node x="136.85714285714283" y="160.0">org.apache.pulsar.client.impl.ConsumerStatsRecorder</node>
+    <node x="194.95238095238096" y="0.0">org.apache.pulsar.common.classification.InterfaceStability.Stable</node>
+    <node x="78.95238095238096" y="0.0">org.apache.pulsar.common.classification.InterfaceAudience.Public</node>
+    <node x="310.95238095238096" y="0.0">java.io.Serializable</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="org.apache.pulsar.client.api.ConsumerStats" target="org.apache.pulsar.common.classification.InterfaceAudience.Public">
+      <point x="-50.66666666666666" y="-15.0" />
+      <point x="194.1904761904762" y="55.0" />
+      <point x="126.95238095238096" y="55.0" />
+      <point x="0.0" y="15.0" />
+    </edge>
+    <edge source="org.apache.pulsar.client.impl.ConsumerStatsRecorder" target="org.apache.pulsar.client.api.ConsumerStats">
+      <point x="0.0" y="-15.0" />
+      <point x="0.0" y="15.0" />
+    </edge>
+    <edge source="org.apache.pulsar.client.impl.ConsumerStatsDisabled" target="org.apache.pulsar.client.impl.ConsumerStatsRecorder">
+      <point x="0.0" y="-15.0" />
+      <point x="376.0" y="215.0" />
+      <point x="298.85714285714283" y="215.0" />
+      <point x="54.0" y="15.0" />
+    </edge>
+    <edge source="org.apache.pulsar.client.api.ConsumerStats" target="org.apache.pulsar.common.classification.InterfaceStability.Stable">
+      <point x="0.0" y="-15.0" />
+      <point x="244.85714285714283" y="55.0" />
+      <point x="242.95238095238096" y="55.0" />
+      <point x="0.0" y="15.0" />
+    </edge>
+    <edge source="org.apache.pulsar.client.api.ConsumerStats" target="java.io.Serializable">
+      <point x="50.666666666666686" y="-15.0" />
+      <point x="295.5238095238095" y="55.0" />
+      <point x="382.95238095238096" y="55.0" />
+      <point x="0.0" y="15.0" />
+    </edge>
+    <edge source="org.apache.pulsar.client.impl.ConsumerStatsRecorderImpl" target="org.apache.pulsar.client.impl.ConsumerStatsRecorder">
+      <point x="0.0" y="-15.0" />
+      <point x="124.0" y="215.0" />
+      <point x="190.85714285714283" y="215.0" />
+      <point x="-54.0" y="15.0" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="1.0" x="188.0" y="55.0" />
+  <SelectedNodes />
+  <Categories />
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+

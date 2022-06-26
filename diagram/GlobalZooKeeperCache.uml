@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>org.apache.pulsar.zookeeper.GlobalZooKeeperCache</OriginalElement>
+  <nodes>
+    <node x="55.999999999999986" y="240.0">org.apache.pulsar.zookeeper.GlobalZooKeeperCache</node>
+    <node x="0.0" y="160.0">org.apache.pulsar.zookeeper.ZooKeeperCache</node>
+    <node x="28.0" y="80.0">org.apache.zookeeper.Watcher</node>
+    <node x="180.0" y="160.0">java.io.Closeable</node>
+    <node x="32.0" y="0.0">org.apache.yetus.audience.InterfaceAudience.Public</node>
+    <node x="164.0" y="80.0">java.lang.AutoCloseable</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="org.apache.pulsar.zookeeper.GlobalZooKeeperCache" target="java.io.Closeable">
+      <point x="52.0" y="-15.0" />
+      <point x="212.0" y="215.0" />
+      <point x="240.0" y="215.0" />
+      <point x="0.0" y="15.0" />
+    </edge>
+    <edge source="org.apache.pulsar.zookeeper.ZooKeeperCache" target="org.apache.zookeeper.Watcher">
+      <point x="0.0" y="-15.0" />
+      <point x="0.0" y="15.0" />
+    </edge>
+    <edge source="java.io.Closeable" target="java.lang.AutoCloseable">
+      <point x="0.0" y="-15.0" />
+      <point x="0.0" y="15.0" />
+    </edge>
+    <edge source="org.apache.zookeeper.Watcher" target="org.apache.yetus.audience.InterfaceAudience.Public">
+      <point x="0.0" y="-15.0" />
+      <point x="0.0" y="15.0" />
+    </edge>
+    <edge source="org.apache.pulsar.zookeeper.GlobalZooKeeperCache" target="org.apache.pulsar.zookeeper.ZooKeeperCache">
+      <point x="-52.0" y="-15.0" />
+      <point x="107.99999999999999" y="215.0" />
+      <point x="80.0" y="215.0" />
+      <point x="0.0" y="15.0" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="1.0" x="158.0" y="135.0" />
+  <SelectedNodes />
+  <Categories />
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+
