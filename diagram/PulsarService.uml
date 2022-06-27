@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>org.apache.pulsar.broker.PulsarService</OriginalElement>
+  <nodes>
+    <node x="304.0" y="0.0">lombok.Setter</node>
+    <node x="0.0" y="0.0">lombok.Getter</node>
+    <node x="115.99999999999997" y="0.0">org.apache.pulsar.broker.ShutdownService</node>
+    <node x="199.99999999999997" y="80.0">org.apache.pulsar.broker.PulsarService</node>
+    <node x="183.99999999999997" y="160.0">org.apache.pulsar.broker.loadbalance.LeaderElectionServiceTest.MockPulsarService</node>
+    <node x="420.0" y="0.0">java.lang.AutoCloseable</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="org.apache.pulsar.broker.PulsarService" target="org.apache.pulsar.broker.ShutdownService">
+      <point x="-19.0" y="-15.0" />
+      <point x="257.0" y="50.0" />
+      <point x="199.99999999999997" y="50.0" />
+      <point x="0.0" y="15.0" />
+    </edge>
+    <edge source="org.apache.pulsar.broker.PulsarService" target="lombok.Getter">
+      <point x="-57.0" y="-15.0" />
+      <point x="218.99999999999997" y="60.0" />
+      <point x="48.0" y="60.0" />
+      <point x="0.0" y="15.0" />
+    </edge>
+    <edge source="org.apache.pulsar.broker.PulsarService" target="java.lang.AutoCloseable">
+      <point x="57.0" y="-15.0" />
+      <point x="333.0" y="60.0" />
+      <point x="496.0" y="60.0" />
+      <point x="0.0" y="15.0" />
+    </edge>
+    <edge source="org.apache.pulsar.broker.PulsarService" target="lombok.Setter">
+      <point x="19.0" y="-15.0" />
+      <point x="295.0" y="50.0" />
+      <point x="352.0" y="50.0" />
+      <point x="0.0" y="15.0" />
+    </edge>
+    <edge source="org.apache.pulsar.broker.loadbalance.LeaderElectionServiceTest.MockPulsarService" target="org.apache.pulsar.broker.PulsarService">
+      <point x="0.0" y="-15.0" />
+      <point x="0.0" y="15.0" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="1.0" x="286.0" y="95.0" />
+  <SelectedNodes>
+    <node>org.apache.pulsar.broker.PulsarService</node>
+  </SelectedNodes>
+  <Categories />
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+
