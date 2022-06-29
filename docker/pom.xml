@@ -30,6 +30,11 @@
   </parent>
   <artifactId>docker-images</artifactId>
   <name>Apache Pulsar :: Docker Images</name>
+  <modules>
+    <module>pulsar</module>
+    <module>grafana</module>
+    <module>pulsar-all</module>
+  </modules>
   <build>
     <plugins>
       <plugin>

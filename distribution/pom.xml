@@ -32,6 +32,12 @@
   <artifactId>distribution</artifactId>
   <packaging>pom</packaging>
   <name>Pulsar :: Distribution</name>
+  <modules>
+    <module>io</module>
+    <module>offloaders</module>
+    <module>server</module>
+  </modules>
+
 
   <profiles>
 
@@ -67,4 +73,5 @@
       </plugin>
     </plugins>
   </build>
+
 </project>

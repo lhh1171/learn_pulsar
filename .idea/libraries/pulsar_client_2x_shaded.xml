@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="pulsar-client-2x-shaded">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/lib/pulsar-client-2x-shaded.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>
