@@ -1,0 +1,13 @@
+<component name="libraryTable">
+  <library name="Maven: org.apache.pulsar:pulsar-client:2.0.0-rc1-incubating">
+    <CLASSES>
+      <root url="jar:///path/apache-maven-3.6.3/mvnrespository/org/apache/pulsar/pulsar-client/2.0.0-rc1-incubating/pulsar-client-2.0.0-rc1-incubating.jar!/" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="jar:///path/apache-maven-3.6.3/mvnrespository/org/apache/pulsar/pulsar-client/2.0.0-rc1-incubating/pulsar-client-2.0.0-rc1-incubating-javadoc.jar!/" />
+    </JAVADOC>
+    <SOURCES>
+      <root url="jar:///path/apache-maven-3.6.3/mvnrespository/org/apache/pulsar/pulsar-client/2.0.0-rc1-incubating/pulsar-client-2.0.0-rc1-incubating-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>
