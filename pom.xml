@@ -1945,7 +1945,7 @@ flexible messaging model and an intuitive client API.</description>
         </property>
       </activation>
       <modules>
-        <module>buildtools</module>
+<!--        <module>buildtools</module>-->
         <module>testmocks</module>
         <module>managed-ledger</module>
         <module>tiered-storage</module>
