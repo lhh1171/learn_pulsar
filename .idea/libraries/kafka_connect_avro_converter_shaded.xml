@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="kafka-connect-avro-converter-shaded">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/kafka-connect-avro-converter-shaded/target/kafka-connect-avro-converter-shaded.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

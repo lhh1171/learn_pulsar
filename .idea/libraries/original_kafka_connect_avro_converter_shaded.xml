@@ -1,0 +1,10 @@
+<component name="libraryTable">
+  <library name="original-kafka-connect-avro-converter-shaded">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/kafka-connect-avro-converter-shaded/target/original-kafka-connect-avro-converter-shaded.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+    <jarDirectory url="jar://$PROJECT_DIR$/kafka-connect-avro-converter-shaded/target/original-kafka-connect-avro-converter-shaded.jar!/" recursive="false" />
+  </library>
+</component>
